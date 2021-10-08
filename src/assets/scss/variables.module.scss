@@ -1,0 +1,11 @@
+$my-theme-color: #2acaee;
+$my-border-color: #eaecef;
+$my-font-color: #2c3e50;
+$my-label-color: #606266;
+
+:export {
+  myThemeColor: $my-theme-color;
+  myBorderColor: $my-theme-color;
+  myFontColor: $my-font-color;
+  myLabelColor: $my-label-color
+}

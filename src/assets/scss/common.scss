@@ -1,0 +1,17 @@
+
+@import "scss/variables.module.scss";
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $my-font-color;
+}
+body {
+  margin: 0;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $my-theme-color;
+    }
+  }
+}
